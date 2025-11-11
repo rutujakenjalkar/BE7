@@ -1,3 +1,5 @@
+#  Write a program to solve a 0-1 Knapsack problem using dynamic programming or branch and 
+#bound strategy. 
 def knapsack(values, weights, W):
     ratio = [v / w for v, w in zip(values, weights)]
     items = sorted(zip(ratio, values, weights), reverse=True)
@@ -12,3 +14,4 @@ def knapsack(values, weights, W):
 v = [60, 100, 120]
 w = [10, 20, 30]
 print("Max profit =", knapsack(v, w, 50))
+
