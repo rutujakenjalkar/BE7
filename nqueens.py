@@ -1,4 +1,6 @@
 #N QUEENS PROBLEMS
+"""Design n-Queens matrix having first Queen placed. Use backtracking to place remaining 
+Queens to generate the final n-queen‘s matrix. """
 
 #To print the board 
 #board taken as input is a 2d list
@@ -40,4 +42,5 @@ if __name__=="__main__":
     SolveNQueens(board, 0, n)
 
         
+
     
