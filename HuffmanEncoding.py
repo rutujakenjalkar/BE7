@@ -1,3 +1,4 @@
+# Write a program to implement Huffman Encoding using a greedy strategy.
 import heapq
 
 class Node:
@@ -52,3 +53,4 @@ if __name__ == "__main__":
     print("Character | Huffman Code")
     for ch, code in codes.items():
         print(f"    {ch}     |     {code}")
+
