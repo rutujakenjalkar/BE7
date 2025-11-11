@@ -1,4 +1,5 @@
 #Fractional knapsack
+# Write a program to solve a fractional Knapsack problem using a greedy method. 
 
 def fractional(value,weight,capacity):
     ratio=[]
@@ -36,5 +37,6 @@ if __name__=="__main__":
     value = [60, 100, 120]
     weight = [10, 20, 30]
     capacity = 50
+
 
     print(fractional(value,weight,capacity))
